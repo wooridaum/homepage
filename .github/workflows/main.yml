@@ -30,6 +30,17 @@ jobs:
             latest
           flavor: |
             latest=true
+          
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.2
+        with:
+          node-version: 18
+          
+      - name: Code Build
+        run: |
+          cd homepage/
+          npm install
+          npm run build
             
       - name: Docker Setup QEMU
         uses: docker/setup-qemu-action@v2.1.0
