@@ -22,6 +22,20 @@ h1.hero__title {
   font-size: 60pt;
 }
 
+@media screen and (max-width: 400px)  {
+    h1.hero__title {
+      font-family: 'PyeongChangPeace';
+      font-size: 45pt;
+    }
+}
+
+@media screen and (max-width: 320px)  {
+  h1.hero__title {
+    font-family: 'PyeongChangPeace';
+    font-size: 60pt;
+  }
+}
+
 .buttons {
   display: flex;
   align-items: center;
