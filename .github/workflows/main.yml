@@ -34,16 +34,15 @@ jobs:
           flavor: |
             latest=true
           
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.5.2
+      - name: Yarn Setup
+        uses: DerYeger/yarn-setup-action@v1.0.1
         with:
           node-version: 18
           
-      - name: Code Build
+      - name: Yarn Build
         run: |
-          cd homepage/
-          npm install
-          npm run build
+          yarn
+          yarn build
             
       - name: Docker Setup QEMU
         uses: docker/setup-qemu-action@v2.1.0
