@@ -13,6 +13,5 @@ sidebar_position: 2
 
 ### 이용방법
 (현재는 Windows만 지원)
-[GitRepo]
 
-[GitRepo]: https://github.com/KoHyunsu/awsbomb-hyunsu-aws
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KoHyunsu&repo=awsbomb-hyunsu-aws&show_owner=true)](https://github.com/KoHyunsu/awsbomb-hyunsu-aws)
