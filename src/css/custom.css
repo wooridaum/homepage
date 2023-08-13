@@ -23,12 +23,17 @@ a.navbar__item {
 }
 
 b.navbar__title {
-  font-size: 14pt;
-  font-weight: 900;
+  font-size: 16pt;
+  font-weight: 700;
+  font-family: 'PyeongChangPeace';
 }
 
 .markdown_image th {
   background: #fff;
+}
+
+p.hero__subtitle {
+  font-weight: 700;
 }
 
 :root {
